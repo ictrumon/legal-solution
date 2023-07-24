@@ -13,12 +13,12 @@
 <body>
     <header class="max-w-screen-xl mx-auto py-5 px-8 md:px-12 lg:px-16">
         <!-- navbar -->
-        <nav class="flex justify-around items-center p-12">
+        <nav class="flex flex-col md:flex-row justify-around items-center p-12">
             <div>
                 <img src="./images/logo2.png">
             </div>
             <div class="flex">
-                <ul class="flex items-center">
+                <ul class="flex flex-col md:flex-row items-center">
                     <li class="mr-5 text-base text-[#707070]"><a href="">Home</a><i class="fa-solid fa-angle-right"></i></li>
                     <li class="mr-5 text-base text-[#707070]"><a href="">Service</a><i class="fa-solid fa-angle-right"></i></li>
                     <li class="mr-5 text-base text-[#707070]"><a href="">Cases</a><i class="fa-solid fa-angle-right"></i></li>
@@ -30,13 +30,13 @@
         </nav>
         <!-- banner section -->
         <section>
-            <div class="hero w-[900px] h-[500px] mx-auto" style="background-image: url(./images/banner.png);">
-                <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero h-[500px]" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-40"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-xl">
                     <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
                     <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <div class="flex justify-center gap-2">
+                    <div class="flex flex-col md:flex-row justify-center gap-2">
                         <input class="h-[64px] bg-white rounded-lg border-none p-5" type="text" placeholder="search your services">
                         <button class="bg-[#B68C5A] text-lg text-white px-10 py-5 rounded-lg ">Search</button>
                     </div>
@@ -124,7 +124,7 @@
             <h2 class="text-[#414040] text-3xl font-extrabold text-center">What Our Client Say</h2>
             <p class="texr-[#707070] max-w-lg mx-auto text-base font-normal text-center mt-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <div class="mt-16">
-                <div class="hero w-[900px] h-[500px] mx-auto" style="background-image: url(./images/banner.png);">
+                <div class="hero h-[500px]" style="background-image: url(./images/banner.png);">
                     <div class="hero-overlay bg-opacity-40"></div>
                     <div class="hero-content text-center text-neutral-content">
                       <div class="max-w-3xl">
@@ -143,7 +143,7 @@
         <section class="max-w-screen-xl mx-auto py-5 px-8 md:px-12 lg:px-16 mt-28">
             <h2 class="text-[#414040] text-3xl font-extrabold text-center">Frequently Asked Any Questions</h2>
             <p class="text-[#414040] max-w-xl mx-auto text-base font-normal text-center my-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <div class="flex items-center p-5 mt-16">
+            <div class="flex flex-col md:flex-row items-center p-5 mt-16">
                 <div class="flex-1">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -191,7 +191,7 @@
         <section class="max-w-screen-xl mx-auto py-5 px-8 md:px-12 lg:px-16 mt-28">
             <h2 class="text-[#414040] text-3xl font-extrabold text-center">Contact With Us</h2>
             <p class="text-[#414040] max-w-xl mx-auto text-base font-normal text-center my-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <div class="flex items-center gap-8 mt-16">
+            <div class="flex flex-col md:flex-row items-center gap-8 mt-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 flex-1">
                     <!-- card 1 -->
                     <div class="bg-[#F3F3F3] p-12 border-r-2 border-b-2">
@@ -251,7 +251,7 @@
             </div>
         </section>
         <!-- footer -->
-        <footer class="footer p-28 bg-[#111] text-base-content mt-28">
+        <footer class="footer p-10 md:p-28 bg-[#111] text-base-content mt-28">
             <div>
                 <img src="./images/logo.png">
                 <p class="text-[#CFCFCF] w-[250px] mx-auto mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
